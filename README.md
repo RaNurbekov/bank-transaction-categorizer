@@ -19,3 +19,14 @@
 Установите зависимости (потребуется PyTorch):
 ```bash
 pip install -r requirements.txt
+2. Обучение (Fine-Tuning)
+Запустите пайплайн генерации данных и обучения модели (потребуется CPU/GPU):
+code
+Bash
+python src/train_nlp.py
+Веса обученной модели сохранятся в директорию models/transaction_nlp/.
+3. Запуск веб-витрины
+Для тестирования инференса запустите Streamlit:
+code
+Bash
+streamlit run app.py
