@@ -1,6 +1,4 @@
-pandas
-scikit-learn
+streamlit
 torch
 transformers
-datasets
-streamlit
+plotly
